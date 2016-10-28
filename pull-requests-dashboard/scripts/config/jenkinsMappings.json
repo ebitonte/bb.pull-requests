@@ -1,0 +1,24 @@
+{
+    "pullrequest_jenkins": {
+        "properties": {
+            "author": {
+                "type": "string"
+            },
+            "email": {
+                "type": "string"
+            },
+            "title": {
+                "type": "string"
+            },
+            "link": {
+                "type": "string"
+            },
+            "createdAt": {
+                "type": "date"
+            },
+            "updatedAt": {
+                "type": "date"
+            }
+        }
+    }
+}

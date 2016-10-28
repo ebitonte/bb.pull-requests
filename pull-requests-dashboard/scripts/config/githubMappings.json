@@ -1,0 +1,36 @@
+{
+    "pullrequest": {
+        "properties": {
+            "author": {
+                "type": "string"
+            },
+            "assignee": {
+                "type": "string"
+            },
+            "title": {
+                "type": "string"
+            },
+            "link": {
+                "type": "string"
+            },
+            "createdAt": {
+                "type": "date"
+            },
+            "updatedAt": {
+                "type": "date"
+            },
+            "body": {
+                "type": "string"
+            },
+            "merged": {
+                "type": "boolean"
+            },
+            "numComments": {
+                "type": "integer"
+            },
+            "numReviewComments": {
+                "type": "integer"
+            }
+        }
+    }
+}
