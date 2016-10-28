@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1 Consumer Web Pull Requests
+    table
+        each pr in prs
+            tr(class= pr.status)
+                td.time
+                    time(datetime=pr.createdAt)= pr.visibleTime
+                td.repo= pr.repo
+                td.author= pr.author
+                td.title
+                    a(href=pr.link)= pr.title

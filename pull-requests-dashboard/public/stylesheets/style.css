@@ -6,3 +6,36 @@ body {
 a {
   color: #00B7FF;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+.new .time {
+    border-left: 6px solid #4CBB17;
+}
+
+.old .time {
+    border-left: 6px solid #FF293C;
+}
+
+.time {
+    padding-left: 8px;
+    width: 90px;
+}
+
+.repo {
+    width: 150px;
+}
+
+.author {
+    width: 150px;
+}
+
+.title {
+    width: 400px;
+}
